@@ -1,3 +1,4 @@
+// <!-- About page start -->
 let tablinks = document.getElementsByClassName("tab-links");
 let tabcontents = document.getElementsByClassName("tab-contents");
 function opentab(tabname){
@@ -10,3 +11,4 @@ function opentab(tabname){
     event.currentTarget.classList.add("active-link")
     document.getElementById(tabname).classList.add("active-tab")
 }
+// <!-- About page end -->
